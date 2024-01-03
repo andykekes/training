@@ -9,4 +9,5 @@ class algoFall():
         return "fall"
     def log(self):
         print("fall: log")
+        print("中文log")
         return
