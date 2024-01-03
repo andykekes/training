@@ -6,6 +6,7 @@ def main():
     vs = algo_Vitalsign.algoVitalsign()
     vs.reduce_rawdata(1)
     vs.push_rawdata(5)
+    print( "呼吸: "  + str(vs.algo_vitalsign_br()))
     # fall     (kevin)
     fall = algo_Fall.algoFall() 
     fall.reduce_rawdata("123") 
