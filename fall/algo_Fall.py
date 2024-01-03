@@ -7,3 +7,6 @@ class algoFall():
     def algo_fall_status(self):
         print("algo_vitalsign_hr")
         return "fall"
+    def log(self):
+        print("fall: log")
+        return
