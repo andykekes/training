@@ -22,4 +22,5 @@ class algoVitalsign():
     
     def algo_vitalsign_br(self):
         print("algo_vitalsign_br")
-        return 15
+        br = 10*15
+        return br
