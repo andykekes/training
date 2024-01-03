@@ -10,5 +10,6 @@ def main():
     fall = algo_Fall.algoFall() 
     fall.reduce_rawdata("123") 
     print(fall.algo_fall_status())
+    fall.log()
 
 main()
